@@ -1,7 +1,7 @@
-import { defineField } from "sanity";
+import { defineField, defineType } from "sanity";
 import { BiUser } from "react-icons/bi";
 
-const profile = {
+export const profile = defineType({
   name: "profile",
   title: "Profile",
   type: "document",
@@ -27,7 +27,7 @@ const profile = {
       description: "Upload a profile picture",
       options: {
         hotspot: true,
-        metadata: ["lqip"], // "blurhash", "palette", etc
+        metadata: ["lqip"],
       },
       fields: [
         {
@@ -70,12 +70,44 @@ const profile = {
       validation: (rule) => rule.required(),
     }),
     defineField({
-      name: "usage",
-      title: "Usage",
-      type: "blockContent",
-      validation: (rule) => rule.required(),
+      name: "socialLinks",
+      title: "Social Links",
+      type: "array",
+      of: [{ type: "reference", to: [{ type: "socialLink" }] }],
+    }),
+    defineField({
+      name: "ventures",
+      title: "Ventures",
+      type: "array",
+      of: [{
+        type: "object",
+        fields: [
+          defineField({
+            name: "name",
+            title: "Venture Name",
+            type: "string",
+            validation: (rule) => rule.required(),
+          }),
+          defineField({
+            name: "description",
+            title: "Description",
+            type: "text",
+            rows: 3,
+          }),
+          defineField({
+            name: "startDate",
+            title: "Start Date",
+            type: "date",
+          }),
+          defineField({
+            name: "website",
+            title: "Website",
+            type: "url",
+          }),
+        ],
+      }],
     }),
   ],
-};
+});
 
 export default profile;
