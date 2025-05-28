@@ -1,21 +1,34 @@
 <div align="center">
-<a href="https://victoreke.com"><img src="./public/logo.png" width="60px"></a>
+<img src="Assets/Profile Pic.jpg" width="150" alt="Aswin Raj Sivaprakash">
 </div>
 
 <div align="center">
-<h1>victoreke.com</h1>
-<p>My personal portfolio website</p>
+<h1>Aswin Raj Sivaprakash</h1>
+<p>Business Executive / Customer Support</p>
 </div>
 
-# Tech Stack
+# About Me
 
-- [NextJS][nextjs] - UI framework
-- [Vercel][vercel] - Hosting and Deployment
-- [Sanity.io][sanity]: Headless CMS and Content Lake
-- [TailwindCSS][tailwind] / CSS - Styling and UI
-- [Umami][umami]: Analytics
-- [Next Themes][nexttheme]: Color Theme
-- [React Refractor][reactrefractor]: Syntax Highlighting
+Business professional with a strong background in environmental science and energy management. Currently working as a Business Executive and Customer Support specialist, with expertise in clean tech marketing and customer success.
+
+## Education
+
+- Master's in Environmental and Energy Management
+  - University of Twente, Enschede (2021-2022)
+  - Scholarship recipient
+
+- Bachelor's in Environmental Science
+  - Amity University, Noida (2015-2018)
+  - Graduated with distinction
+
+## Experience
+
+- Customer Success & Marketing Specialist at Scores & Levels
+- Business Development Manager at National Chromatography Inco
+- Client Relationship Specialist at Eurail
+- Environmental Assistant at MGK Aqua Inco
+
+# Tech Stack
 
 ## Project Overview
 
