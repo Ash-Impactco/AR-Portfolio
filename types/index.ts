@@ -17,6 +17,13 @@ export interface QuizValueProps {
   answer: string;
 }
 
+export interface SocialLinkType {
+  _id: string;
+  label: string;
+  url: string;
+  icon: string;
+}
+
 export type ProfileType = {
   _id: string;
   fullName: string;
@@ -33,6 +40,13 @@ export type ProfileType = {
   resumeURL: string;
   og: string;
   usage: PortableTextBlock[];
+  socialLinks: SocialLinkType[];
+  ventures: {
+    name: string;
+    description: string;
+    startDate: string;
+    website: string;
+  }[];
 };
 
 export type JobType = {

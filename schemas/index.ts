@@ -5,6 +5,7 @@ import post from "./post";
 import author from "./author";
 import heroe from "./heroe";
 import socialLink from "./socialLink";
+import education from "./education";
 import { table } from "./table";
 import blockContent from "./blockContent";
 import quiz from "./quiz";
@@ -17,6 +18,7 @@ export const schemaTypes = [
   author,
   heroe,
   socialLink,
+  education,
 
   // Reference types
   blockContent,
