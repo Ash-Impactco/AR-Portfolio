@@ -1,26 +1,10 @@
-export const projectId = checkValue(
-  process.env.NEXT_PUBLIC_SANITY_PROJECT_ID,
-  "NEXT_PUBLIC_SANITY_PROJECT_ID",
-  "https://sanity.io"
-);
-
-export const dataset: string = checkValue(
-  process.env.NEXT_PUBLIC_SANITY_DATASET,
-  "NEXT_PUBLIC_SANITY_DATASET",
-  "https://sanity.io"
-);
-
-export const token = checkValue(
-  process.env.NEXT_PUBLIC_SANITY_ACCESS_TOKEN,
-  "NEXT_PUBLIC_SANITY_ACCESS_TOKEN",
-  "https://sanity.io"
-);
-
-export const hookSecret = process.env.NEXT_PUBLIC_SANITY_HOOK_SECRET;
+export const projectId = "2iczu3ec";
+export const dataset = "production";
+export const token = "skB3aFqSxUiWHFuf81MjrPKtox4noqLooyg8SJxly2n5j1v8h6ZSmDEtdHeohiV4MKEcpEkHSTFavFD2n2chFDJTlck0UKK6M2JoCxzkgUzQobhE9UPMbRa1Qjiv8gHpnFT9srous1oHWaLNPU54u1vfs2fdVIxuxeL0orSprbhgkqAJaW0H";
 export const mode = process.env.NODE_ENV;
+export const hookSecret = process.env.NEXT_PUBLIC_SANITY_HOOK_SECRET;
 
-export const apiVersion =
-  process.env.NEXT_PUBLIC_SANITY_API_VERSION || "2023-07-21";
+export const apiVersion = process.env.NEXT_PUBLIC_SANITY_API_VERSION || "2023-07-21";
 
 export const giscusRepoId = checkValue(
   process.env.NEXT_PUBLIC_GISCUS_REPOID,

@@ -1,4 +1,4 @@
-import { Slide } from "../animation/Slide";
+  import { Slide } from "../animation/Slide";
 import Image from "next/image";
 import { Metadata } from "next";
 import PageHeading from "@/app/components/shared/PageHeading";

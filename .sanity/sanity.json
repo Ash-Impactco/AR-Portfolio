@@ -1,0 +1,16 @@
+{
+  "api": {
+    "projectId": "2iczu3ec",
+    "dataset": "production"
+  },
+  "plugins": [
+    "@sanity/base",
+    "@sanity/default-layout",
+    "@sanity/default-login",
+    "@sanity/vision",
+    "@sanity/documents",
+    "@sanity/desk-tool",
+    "@sanity/code-input",
+    "@sanity/table"
+  ]
+}

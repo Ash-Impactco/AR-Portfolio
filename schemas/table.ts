@@ -1,5 +1,5 @@
 import { defineField, defineType } from "sanity";
-import { TableWidget } from "@/app/components/widgets/TableWidget";
+import { TableWidget } from "./TableWidget";
 import { LuTable } from "react-icons/lu";
 
 export const table = defineType({
