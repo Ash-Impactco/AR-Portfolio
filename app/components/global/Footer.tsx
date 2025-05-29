@@ -1,7 +1,7 @@
 import Image from "next/image";
-import sanitylogo from "@/public/sanity.png";
-import vercellogo from "@/public/vercel.svg";
-import nextjslogo from "@/public/nextjs.svg";
+import sanitylogo from "@/dist/sanity.png";
+import vercellogo from "@/dist/vercel.svg";
+import nextjslogo from "@/dist/nextjs.svg";
 import UnmountStudio from "./Unmount";
 
 export default function Footer() {
